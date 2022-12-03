@@ -32,7 +32,7 @@ class MyArray {
         return item;
     }
 
-    //Helper method to delete an element and shift remaning elements  
+    //Helper method to delete an element and shift the remaning elements  
     shiftElements(index) {
         for(let i=index; i<this.length; i++) {
             this.data[i] = this.data[i+1]; 
